@@ -45,13 +45,7 @@ CursoCatedratico varchar (70) not null,
 CorreoCatedratico varchar (100) not null
 )Engine = InnoDB Default charset = Latin1 ;
 
-create table BOLETAS(
-NumeroBoleta int primary key,
-CodigoAlumno int,
-Mes varchar(20) not null, 
-Ciclo int,
-Monto float
-)Engine = InnoDB Default charset = Latin1 ;
+
 
 create table FACULTADES
 (
