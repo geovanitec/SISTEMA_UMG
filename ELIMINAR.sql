@@ -1,0 +1,1 @@
+drop database SISTEMA_UMG;
